@@ -20,15 +20,27 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import ethereum from "./tech/ethereum.png";
+import fastapi from "./tech/fastapi.svg";
+import flutter from "./tech/flutter.png";
+import angular from "./tech/angular.png";
+
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import socialinsider from "./company/socialinsider.png";
+import keysight from "./company/keysight.png";
+import best from "./company/best.png";
+import allquest from "./company/allquest.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
 
 export {
   logo,
@@ -59,4 +71,14 @@ export {
   carrent,
   jobit,
   tripguide,
+  socialinsider,
+  keysight,
+  best,
+  allquest,
+  angular,
+  fastapi,
+  flutter,
+  python,
+  ethereum,
+  
 };

@@ -23,6 +23,16 @@ import {
   jobit,
   tripguide,
   threejs,
+  socialinsider,
+  keysight,
+  best,
+  allquest,
+  angular,
+  fastapi,
+  flutter,
+  python,
+  ethereum,
+
 } from "../assets";
 
 export const navLinks = [
@@ -42,24 +52,44 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Flutter Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Networking & Security Enthusiast",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Product Creator",
     icon: creator,
   },
 ];
 
 const technologies = [
+  {
+    name: "Angular",
+    icon: angular
+  },
+  // {
+  //   name: 'FastAPI',
+  //   icon: fastapi
+  // },
+  // {
+  //   name: 'Flutter',
+  //   icon: flutter
+  // },
+  // {
+  //   name: 'Ethereum',
+  //   icon: ethereum
+  // },
+  // {
+  //   name: 'Python',
+  //   icon: python
+  // },
   {
     name: "HTML 5",
     icon: html,
@@ -116,55 +146,54 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "IT Department Leader",
+    company_name: "BEST Bucharest",
+    icon: best,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "October 2019 - Jan 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Organized BESTEM hackathon withing a 6 member team where was in charge of the technical part of the hackathon, including" +
+      "developing challanges, their systems and tech communication",
+      "Gained management, teamwork and communication skills",
+      "Developed a powerful sense of social interaction as well as discipline for meeting the required deadlines",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer",
+    company_name: "Socialinsider",
+    icon: socialinsider,
+    iconBg: "#383E56",
+    date: "November 2020 - May 2022",
+    points: [
+      "In charge of designing & developing new features and services for the main product as well as the redesign of the architecture and performance improvements",
+      "Responsible for migrating from AngularJS, new product features on Angular and NodeJS and services written in Python",
+      "Understood how a small company works inside-out by interacting with all the company's departmants on a daily basis",
+    ],
+  },
+  {
+    title: "DevOps - R&D Engineer",
+    company_name: "Keysight Technologies",
+    icon: keysight,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on network tests design and implementation in Robot Framework",
+      "Gained CI & CD experience using Jenkins, Ansible and Selenium",
+      "Developed new features for the BreakingPoint main product using Sencha, Java and Angular",
     ],
   },
+
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "CTO & Co-Founder",
+    company_name: "AllQuest",
+    icon: allquest,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products for clients.",
+      "Researching, designing and building the architecture of the products.",
+      "Responsible for all tech-side planning and execution of the company's projects and client discovery & deployment.",
     ],
   },
 ];
