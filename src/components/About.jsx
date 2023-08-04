@@ -48,8 +48,8 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a skilled software developer with experience in React, Node.js, Angular, FastAPI (and friends), 
-        and some more - include the dreaded Java. I'm also a big fan of new frameworks and powerful tech, 
-        like this magical Three.js library that's I'm using for 3D models. Pretty good on the networking 
+        and some more - including the dreaded Java. I'm also a big fan of new frameworks and powerful tech, 
+        like this magical Three.js library that's I'm using for 3D models. I'm pretty good on the networking 
         and security side of things too, and I'm always looking to learn more and innovate. 
       </motion.p>
 

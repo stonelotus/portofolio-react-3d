@@ -227,67 +227,68 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Blockchain Ticketing",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A cross-platform event ticket management system that allows the users  to buy and sell tickets in a secure and transparent way " +
+      "using smart contracts and NFTs.",
     tags: [
       {
-        name: "react",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "android",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/stonelotus/Bachelor_certification_project",
   },
   {
-    name: "Job IT",
+    name: "Neo Chrome Extension",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Simple chrome extension to display the summary of a YouTube video, using the YouTube Data API and the Text Summarization API, as well as GPT4 model.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "fastAPI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "elastic",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "_private_",
   },
   {
-    name: "Trip Guide",
+    name: "Skin Leisures Detection",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A ResNet-18 model trained to detect skin leisures using the HAM10000 dataset. The model was trained using PyTorch and the model was deployed using Flask.",
     tags: [
       {
-        name: "nextjs",
+        name: "ResNet-18",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Flask",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/stonelotus/resnet_skin_leisures_vaf",
   },
 ];
 

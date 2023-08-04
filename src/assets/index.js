@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpeg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -37,9 +37,9 @@ import keysight from "./company/keysight.png";
 import best from "./company/best.png";
 import allquest from "./company/allquest.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carrent from "./lic_ss.png";
+import jobit from "./neo_screen.png";
+import tripguide from "./resnet.png";
 
 
 export {
