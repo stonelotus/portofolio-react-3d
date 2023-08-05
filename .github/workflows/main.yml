@@ -28,8 +28,15 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Deploy
-        run: npx gh-pages -d dist -t -r https://${{ secrets.GITHUB_TOKEN }}@github.com/stonelotus/portofolio-react-3d.git
+      - name: Deploy to Pages
+        run: |
+            cd dist
+            git init
+            git config user.name "GitHub Actions"
+            git config user.email "github-actions@example.com"
+            git add .
+            git commit -m "Deploy to GitHub Pages"
+            git push --force https://${{ secrets.GITHUB_TOKEN }}@github.com/stonelotus/portofolio-react-3d.git master:gh-pages
 
 
         
