@@ -29,8 +29,7 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        run: npm run deploy
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx gh-pages -d dist -t -r https://${{ secrets.GITHUB_TOKEN }}@github.com/stonelotus/portofolio-react-3d.git
+
 
         
