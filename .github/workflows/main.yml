@@ -17,7 +17,11 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 'v18.12.1'
-
+      - name: Configure Git User
+        run: |
+          git config --global user.email "radoi644@gmail.com"
+          git config --global user.name "stonelotus"
+          
       - name: Install Dependencies
         run: npm install --legacy-peer-deps
 
